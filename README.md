@@ -6,6 +6,7 @@ This is the first project in JS module
 
 
 ## Built With
+
 ### Major languages
 - HTML
 - CSS
@@ -16,11 +17,12 @@ This is the first project in JS module
 - Git
 - Visual Studio Code
 
-
 ## Authors
 👤 Ahmad Zia Yousufi 
 
 Github : [@ahzia](https://github.com/ahzia) <br>
+Twitter: [@ZiaYousofi](https://twitter.com/ZiaYousofi)<br>
+LinkedIn : [@ah-ziayosfi](https://www.linkedin.com/in/ah-ziayosfi/)
 
 👤 Donard Golaj
 
@@ -31,6 +33,8 @@ LinkdIn : [@donard-golaj](https://www.linkedin.com/in/donard-golaj/) <br>
 👤 Yannick-Noel Aka 
 
 Github : [codecaiine](https://github.com/codecaiine) <br>
+Twitter : [@YannickNAka](https://twitter.com/YannickNAka)<br>
+LinkdIn : [@yannick-noël-aka](https://www.linkedin.com/in/yannick-no%C3%ABl-aka/) 
 
 ## 🤝 Contributing
 Contributions, issues, and feature requests are welcome!
