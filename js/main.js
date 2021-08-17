@@ -1,6 +1,6 @@
 let books = null;
 
-function displayBooks() {
+const displayBooks = () => {
   const bookCollection = document.getElementById('book-list');
   const list = document.createElement('ul');
   books.forEach((book) => {
@@ -22,7 +22,7 @@ function displayBooks() {
   bookCollection.appendChild(list);
 }
 
-function updateLocalStorage(remove) {
+const updateLocalStorage = (remove) => {
   if (!remove) {
     if (books === null) {
       books = JSON.parse(window.localStorage.getItem('books'));
@@ -37,7 +37,7 @@ function updateLocalStorage(remove) {
   eventListeners();
 }
 
-function removebook(id) { // eslint-disable-line no-unused-vars
+const removebook = (id) => { // eslint-disable-line no-unused-vars
   const temp = [];
   let update = false;
   books.forEach((book) => {
@@ -59,7 +59,7 @@ function removebook(id) { // eslint-disable-line no-unused-vars
   updateLocalStorage(true);
 }
 
-function eventListeners() {
+const eventListeners = () => {
   const removeBtn = document.querySelectorAll('.remove');
   removeBtn.forEach((btn) => {
     btn.onclick = (event) => {
@@ -71,7 +71,7 @@ function eventListeners() {
   });
 }
 
-function addBook() {
+const addBook = () => {
   const title = document.getElementById('title').value;
   const author = document.getElementById('author').value;
   const error = document.getElementById('error');
