@@ -1,5 +1,5 @@
-# Booklist
-This is the first project in JS module
+# Awesome books: refactor to use JavaScript classes
+In this project, you will refactor the Awesome books application to use JavaScript classes.
 
 ![image](https://user-images.githubusercontent.com/74506933/129715202-bf2c6b09-839f-4470-8af4-b1fafb96b659.png)
 
