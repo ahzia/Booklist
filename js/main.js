@@ -20,7 +20,7 @@ const displayBooks = () => {
   });
   bookCollection.innerHTML = '';
   bookCollection.appendChild(list);
-}
+};
 
 const updateLocalStorage = (remove) => {
   if (!remove) {
@@ -35,7 +35,7 @@ const updateLocalStorage = (remove) => {
   displayBooks();
   // eslint-disable-next-line no-use-before-define
   eventListeners();
-}
+};
 
 const removebook = (id) => { // eslint-disable-line no-unused-vars
   const temp = [];
@@ -57,7 +57,7 @@ const removebook = (id) => { // eslint-disable-line no-unused-vars
   });
   books = temp;
   updateLocalStorage(true);
-}
+};
 
 const eventListeners = () => {
   const removeBtn = document.querySelectorAll('.remove');
@@ -69,7 +69,7 @@ const eventListeners = () => {
       removebook(bookId);
     };
   });
-}
+};
 
 const addBook = () => {
   const title = document.getElementById('title').value;
@@ -92,7 +92,7 @@ const addBook = () => {
       updateLocalStorage(false);
     }
   }
-}
+};
 
 document.addEventListener('DOMContentLoaded', () => {
   updateLocalStorage(false);
