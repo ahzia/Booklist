@@ -14,6 +14,7 @@ export default class Books {
        const liId = `li${title}`;
        let bookCard;
        if (grey) {
+         list.style.border = '2px solid black';
          bookCard = `<li class="grey" id=${liId}>
           <div class="text">
           <p class = "paragraph-1">"${title}" by</p>
