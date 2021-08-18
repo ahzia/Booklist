@@ -20,8 +20,7 @@ export default class Books {
           <p class = "paragraph-2">: ${author}</p>
           </div>
           <button id="btn${id}" class="remove button">Remove</button>
-          </li>
-          <hr>`;
+          </li>`;
          grey = false;
        } else {
          bookCard = `<li id=${liId}>
@@ -30,8 +29,7 @@ export default class Books {
         <p class = "paragraph-2">: ${author}</p>
         </div>
         <button id="btn${id}" class="remove button">Remove</button>
-        </li>
-        <hr>`;
+        </li>`;
          grey = true;
        }
 
