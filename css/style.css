@@ -1,7 +1,35 @@
 body {
-  font-size: 10px;
+    font-size: 10px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
 }
 
 .grey {
-  background-color: grey;
+    background-color: grey;
+}
+
+ul {
+    border: 2px solid black;
+    padding: 0;
+    list-style-type: none;
+}
+
+.text {
+    display: flex;
+    width: 100%;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+.add-form {
+    display: block;
 }
