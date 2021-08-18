@@ -53,9 +53,9 @@ input {
 }
 
 .btn {
+  margin-left: 8.5rem;
   border: 2px solid black;
   font-weight: 600;
   box-shadow: 5px 5px 5px black;
   background: white;
-  margin-left: 8.5rem;
 }
