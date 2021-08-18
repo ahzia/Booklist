@@ -114,8 +114,8 @@ export default class Books {
      };
 
      clearInputs = () => {
-      document.getElementById('title').value = '';
-      document.getElementById('author').value = '';
-      document.getElementById('error').innerHTML = '';
+       document.getElementById('title').value = '';
+       document.getElementById('author').value = '';
+       document.getElementById('error').innerHTML = '';
      }
 }
