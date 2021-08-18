@@ -71,7 +71,8 @@ export default class Books {
     const temp = [];
     let update = false;
     this.books.forEach((book) => {
-      if (book.id != id) { // eslint-disable-line eqeqeq
+      // eslint-disable-next-line eqeqeq
+      if (book.id != id) {
         if (!update) {
           temp.push({
             id: (book.id - 1),
