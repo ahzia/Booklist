@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 export default class Books {
   constructor() {
     this.books = null;

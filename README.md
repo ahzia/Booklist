@@ -17,6 +17,14 @@ In this project, you will refactor the Awesome books application to use JavaScri
 - Git
 - Visual Studio Code
 
+### Getting Started 
+
+To get a local copy up and running follow these simple example steps.
+
+Clone the repo with git clone https://github.com/ahzia/Booklist
+
+Open index.html using a web server
+
 ## Authors
 👤 Ahmad Zia Yousufi 
 
