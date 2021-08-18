@@ -38,6 +38,7 @@ export default class Books {
      });
      bookCollection.innerHTML = '';
      bookCollection.appendChild(list);
+     this.clearInputs();
    };
 
     eventListeners = () => {
@@ -111,4 +112,10 @@ export default class Books {
          }
        }
      };
+
+     clearInputs = () => {
+      document.getElementById('title').value = '';
+      document.getElementById('author').value = '';
+      document.getElementById('error').innerHTML = '';
+     }
 }
