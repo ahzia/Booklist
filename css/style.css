@@ -1,8 +1,7 @@
 body {
-  font-size: 10px;
+  font-size: 16px;
+  font-weight: 500;
   display: grid;
-  justify-content: center;
-  align-items: center;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -10,10 +9,10 @@ body {
   background-color: darkgrey;
 }
 
-ul {
+.b-line,
+.menu {
   padding: 0;
-  list-style-type: none;
-  width: 400px;
+  width: 100%;
 }
 
 .text {
@@ -21,7 +20,8 @@ ul {
   width: 100%;
 }
 
-li {
+.b-line li,
+.menu-list {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -32,9 +32,27 @@ li {
 
 h1 {
   text-align: center;
+  font-weight: 600;
+  font-size: 26px;
 }
 
 .add-form {
+  text-align: center;
+}
+
+.date {
+  float: right;
+  padding: 10px;
+}
+
+.contact-list {
+  display: grid;
+  justify-content: center;
+  list-style-type: disc;
+  list-style-position: outside;
+}
+
+.contact p {
   text-align: center;
 }
 
@@ -50,6 +68,8 @@ input {
   border: 2px solid black;
   font-weight: 600;
   color: black;
+  width: 400px;
+  height: 25px;
 }
 
 .btn {
@@ -58,4 +78,62 @@ input {
   box-shadow: 5px 5px 5px black;
   background: white;
   margin-left: 8.5rem;
+  margin-left: 19rem;
+  width: 100px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2rem;
+  font-size: 17px;
+  border: 1px solid black;
+  font-weight: 600;
+}
+
+.menu {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.menu-list {
+  border-right: 1px solid black;
+}
+
+.menu-list a {
+  text-decoration: none;
+  color: black;
+}
+
+.logo {
+  width: 100%;
+}
+
+.logo a {
+  text-decoration: none;
+  color: black;
+}
+
+.b-tab {
+  display: none;
+}
+
+.b-tab.active-tab {
+  display: block;
+}
+
+a.active-tab {
+  background-color: rgb(241, 238, 238);
+  color: palevioletred;
+}
+
+footer {
+  height: 35px;
+  width: 98%;
+  padding-top: 20px;
+  padding-left: 10px;
+  border: 2px solid black;
+  position: absolute;
+  bottom: 5px;
+  font-weight: 600;
 }
