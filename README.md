@@ -1,5 +1,5 @@
-# Awesome books: refactor to use JavaScript classes
-In this project, you will refactor the Awesome books application to use JavaScript classes.
+# Awesome books 
+"Awesome books" is a simple website that displays a list of books and allows you to add and remove books from that list.
 
 ![image](https://user-images.githubusercontent.com/74506933/129715202-bf2c6b09-839f-4470-8af4-b1fafb96b659.png)
 
