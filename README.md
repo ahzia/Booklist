@@ -1,7 +1,9 @@
 # Awesome books 
 "Awesome books" is a simple website that displays a list of books and allows you to add and remove books from that list.
 
-![image](https://user-images.githubusercontent.com/74506933/129715202-bf2c6b09-839f-4470-8af4-b1fafb96b659.png)
+![image](https://user-images.githubusercontent.com/74506933/130085708-c4aadf7e-5a03-4783-aad0-3e8bd0d74fd6.png)
+![image](https://user-images.githubusercontent.com/74506933/130085759-5ec4fb01-eaa6-496e-8231-c575fa987a2e.png)
+![image](https://user-images.githubusercontent.com/74506933/130085786-125de0e5-2ceb-4dbf-b57f-f38440c63e58.png)
 
 
 
