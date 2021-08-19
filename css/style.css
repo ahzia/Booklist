@@ -1,8 +1,6 @@
 body {
   font-size: 10px;
   display: grid;
-  justify-content: center;
-  align-items: center;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -50,6 +48,8 @@ input {
   border: 2px solid black;
   font-weight: 600;
   color: black;
+  width: 400px;
+  height: 25px;
 }
 
 .btn {
@@ -58,4 +58,34 @@ input {
   box-shadow: 5px 5px 5px black;
   background: white;
   margin-left: 8.5rem;
+  margin-left: 19rem;
+  width: 100px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2rem;
+  font-size: 17px;
+  border: 1px solid black;
+  font-weight: 600;
+}
+
+.menu {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.menu-list {
+  border-right: 1px solid black;
+}
+
+.menu-list a {
+  text-decoration: none;
+  color: black;
+}
+
+.logo a {
+  text-decoration: none;
+  color: black;
 }

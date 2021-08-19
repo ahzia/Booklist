@@ -10,9 +10,20 @@
 </head>
 
 <body>
+    <header>
+        <p class="logo"><a href="#">Awesome Books</a></p>
+        <ul class="menu">
+            <li class="menu-list"><a href="#">List</a></li>
+            <li class="menu-list"><a href="#">Add New</a></li>
+            <li class="menu-list"><a href="#">Contact</a></li>
+        </ul>
+    </header>
+    <main>
+    <section>
     <h1>Awesome Books</h1>
     <div id="book-list"></div>
-
+    </section>
+    <section>
     <div class="add-form">
         <h1>Add a new book</h1>
         <input type="text" placeholder="Title" required id="title"><br>
@@ -20,8 +31,16 @@
         <button class="btn" type="button" id="btnAdd">Add</button>
     </div>
     <p id="error"></p>
+    </section>
+    </main>
+    <section class="contact">
+
+    </section>
+    <footer>Copyright</footer>
 
     <script type="module" src="./js/main.js"></script>
+
+
 </body>
 
 </html>
