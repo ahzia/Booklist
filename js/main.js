@@ -2,6 +2,12 @@ import Books from './books.js';
 
 const NewBooks = new Books();
 
+function assignDate() {
+  const DateTime = luxon.DateTime.now(); // eslint-disable-line no-undef
+  const Date = `${DateTime.year} - ${DateTime.month} - ${DateTime.day}`;
+  document.getElementById('date').innerHTML = Date;
+}
+
 document.addEventListener('DOMContentLoaded', () => {
   NewBooks.updateLocalStorage(false);
   NewBooks.eventListeners();
@@ -38,3 +44,4 @@ const bindAll = () => {
 };
 
 bindAll();
+assignDate();
