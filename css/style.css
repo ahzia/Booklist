@@ -89,3 +89,16 @@ header {
   text-decoration: none;
   color: black;
 }
+
+.b-tab {
+  display: none;
+}
+
+.b-tab.active-tab {
+  display: block;
+}
+
+a.active-tab {
+  background-color: rgb(241, 238, 238);
+  color: palevioletred;
+}
