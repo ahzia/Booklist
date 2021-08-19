@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 export default class Books {
   constructor() {
     this.books = null;
@@ -6,23 +7,39 @@ export default class Books {
    displayBooks = () => {
      const bookCollection = document.getElementById('book-list');
      const list = document.createElement('ul');
+     let grey = true;
      this.books.forEach((book) => {
        const { title } = book;
        const { author } = book;
        const { id } = book;
        const liId = `li${title}`;
-       const bookCard = `<li id=${liId}>
+       let bookCard;
+       if (grey) {
+         list.style.border = '2px solid black';
+         bookCard = `<li class="grey" id=${liId}>
           <div class="text">
-          <p>"${title}" by</p>
-          <p>: ${author}</p>
+          <p class = "paragraph-1">"${title}" by</p>
+          <p class = "paragraph-2">: ${author}</p>
           </div>
           <button id="btn${id}" class="remove button">Remove</button>
-          </li>
-          <hr>`;
+          </li>`;
+         grey = false;
+       } else {
+         bookCard = `<li id=${liId}>
+        <div class="text">
+        <p class = "paragraph-1">"${title}" by</p>
+        <p class = "paragraph-2">: ${author}</p>
+        </div>
+        <button id="btn${id}" class="remove button">Remove</button>
+        </li>`;
+         grey = true;
+       }
+
        list.insertAdjacentHTML('beforeend', bookCard);
      });
      bookCollection.innerHTML = '';
      bookCollection.appendChild(list);
+     this.clearInputs();
    };
 
     eventListeners = () => {
@@ -96,4 +113,10 @@ export default class Books {
          }
        }
      };
+
+     clearInputs = () => {
+       document.getElementById('title').value = '';
+       document.getElementById('author').value = '';
+       document.getElementById('error').innerHTML = '';
+     }
 }
